@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+  </style>
+  <title>CloudBase</title>
+  <link rel="icon" type="image/x-icon" href="images/logo2.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Passion+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+    integrity="sha384-eoTu3+HydHRBIjnCVwsFyCpUDZHZSFKEJD0mc3ZqSBSb6YhZzRHeiomAUWCstIWo" crossorigin="anonymous">
+</head>
+
+<body>
+  
+  <!--NAVBAR BOOSTRAP მენიუ, მეორდება ყველა გვერდზე-->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-light" id="nav">
+    <!--NAVBAR-TOGGLE-->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+      aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!--NAVBAR-BRAND-->
+    <a class="navbar-brand" href="index.html"><span>Cloudbase</span></a>
+    <!--NAVBAR_COLLAPSE-->
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <!--NAVBAR UL/LI/A-->
+      <ul class="navbar-nav m-auto">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" id="index" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="about" href="about.html">About us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="book" href="book.html">Book</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" id="news" href="news.html">News</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="contact" href="contact.html">Contact us</a>
+        </li>
+      </ul>
+    </div>
+    <ul class="navbar-nav">
+      <li>
+        <a target="_blank" href="https://www.facebook.com/CloudBaseGeorgia"><i class="bi bi-facebook social"></i></a>
+        <a target="_blank" href="https://www.instagram.com/cloudbase.paragliding/?hl=en"><i
+            class="bi bi-instagram social"></i></a>
+        <a target="_blank" href="https://wa.me/995511203030"><i class="bi bi-whatsapp social"></i></a>
+        <a><i class="bi bi-telegram social"></i></a>
+        <a><i class="bi bi-snapchat social"></i></a>
+      </li>
+    </ul>
+  </nav>
+
+  <!--PAGES DIV გვერდის მთავარი კონტენტის კონტეინერი, მეორდება ყველა გვერდზე, ხოლო შიგნით კონტენტი იცვლება გვერდებზე-->
+  <div id="pages">
+    
+
+    <!--NEWS CONTENT-->
+    <div class="container pt-5 px-4 pb-4 bg-white mt-5">
+      <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 row-cols-sm-2 g-4">
+        <div class="col">
+          <div class="card h-100 border-0">
+            <img src="images/news-posib.jpeg" class="card-img-top" alt="...">
+            <div class="card-body border-bottom border-start border-end">
+              <h6 class="card-title">No limited oportunities</h6>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <a href="#" class="card-link"
+                style="text-transform: uppercase; font-size:13.333px; color: rgb(19, 170, 160)">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 border-0">
+            <img src="images/news-fest.jpg" class="card-img-top" alt="...">
+            <div class="card-body border-bottom border-start border-end">
+              <h6 class="card-title">Compatition</h6>
+              <p class="card-text">This is a short card. Lorem ipsum dolor sit amet consectetur adipisicing. Lorem ipsum
+                dolor sit amet consectetur adipisicing.</p>
+              <a href="#" class="card-link"
+                style="text-transform: uppercase; font-size:13.333px; color: rgb(19, 170, 160)">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 border-0">
+            <img src="images/news-night.jpg" class="card-img-top" alt="...">
+            <div class="card-body border-bottom border-start border-end">
+              <h6 class="card-title">Night-time paragliding</h6>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <a href="#" class="card-link"
+                style="text-transform: uppercase; font-size:13.333px; color: rgb(19, 170, 160)">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 border-0">
+            <img src="images/news-dmanisi.jpg" class="card-img-top" alt="...">
+            <div class="card-body border-bottom border-start border-end">
+              <h6 class="card-title">Trip to Bakhmaro</h6>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <a href="#" class="card-link"
+                style="text-transform: uppercase; font-size:13.333px; color: rgb(19, 170, 160)">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 border-0">
+            <img src="images/news-achiv.jpg" class="card-img-top" alt="...">
+            <div class="card-body border-bottom border-start border-end">
+              <h6 class="card-title">Discovering Dmanisi</h6>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <a href="#" class="card-link"
+                style="text-transform: uppercase; font-size:13.333px; color: rgb(19, 170, 160)">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 border-0">
+            <img src="images/news-cross-1.webp" class="card-img-top" alt="...">
+            <div class="card-body border-bottom border-start border-end">
+              <h6 class="card-title">Cross-country adventure</h6>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content.</p>
+              <a href="#" class="card-link"
+                style="text-transform: uppercase; font-size:13.333px; color: rgb(19, 170, 160)">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 border-0">
+            <img src="images/news-tirp.jpg" class="card-img-top" alt="...">
+            <div class="card-body border-bottom border-start border-end">
+              <h6 class="card-title">Hosting "Redbull"</h6>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <a href="#" class="card-link"
+                style="text-transform: uppercase; font-size:13.333px; color: rgb(19, 170, 160)">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 border-0">
+            <img src="images/news9.jpg" class="card-img-top" alt="...">
+            <div class="card-body border-bottom border-start border-end">
+              <h6 class="card-title">New level unlocked</h6>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <a href="#" class="card-link"
+                style="text-transform: uppercase; font-size:13.333px; color: rgb(19, 170, 160)">Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--SPONSORS, მეორდება ყველაზე გვერდზე, რადგან არის კონტენტის კონტეინერის მიღმა, ჯავასკრიპტით ქრება ზოგიერთ გვერდზე-->
+  <div class="container-fluid py-3 px-0 border-bottom m-0 bg-white">
+    <div class="row row-cols-lg-5 row-cols-md-5 row-cols-sm-3 row-cols-3 sponsors d-flex justify-content-center m-0 p-0">
+      <div class="col d-flex justify-content-center align-items-center py-3 m-0">
+        <div class="py-3 px-0 m-0 col-img col-img-1"></div>
+      </div>
+      <div class="col d-flex justify-content-center align-items-center py-3 m-0">
+        <div class="py-3 px-0 m-0 col-img col-img-2"></div>
+      </div>
+      <div class="col d-flex justify-content-center align-items-center py-3 m-0">
+        <div class="py-3 px-0 m-0 col-img col-img-3"></div>
+      </div>
+      <div class="col d-flex justify-content-center align-items-center py-3 m-0">
+        <div class="py-3 px-0 m-0 col-img col-img-4"></div>
+      </div>
+      <div class="col d-flex justify-content-center align-items-center py-3 m-0">
+        <div class="py-3 px-0 m-0 col-img col-img-5"></div>
+      </div>
+    </div>
+  </div>
+
+  <!---FOOTER, გვერის დაბოლოება, მეორდება ყველა გვერდზე-->
+  <div class="container-fluid bg-white">
+    <div class="container m-auto py-5">
+      <div class="footer row row-cols-lg-3 row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-between">
+        <!--UL/LI მენიუ-->
+        <div class="col w-auto">
+          <ul class="p-0 m-0" style="list-style-type: none;">
+            <li class="py-2">
+              <a class="pe-3" id="about" href="about.html">About us</a>
+              <a class="pe-3" id="book" href="book.html">Book</a>
+              <a class="" id="news" href="news.html">News</a>
+            </li>
+            <!--UL/LI სოციალური მედიის ღილაკები-->
+            <li class="pt-2">
+              <a target="_blank" href="https://www.facebook.com/CloudBaseGeorgia"><i class="bi bi-facebook social"></i></a>
+              <a target="_blank" href="https://www.instagram.com/cloudbase.paragliding/?hl=en"><i class="bi bi-instagram social"></i></a>
+              <a target="_blank" href="https://wa.me/995511203030"><i class="bi bi-whatsapp social"></i></a>
+              <a><i class="bi bi-telegram social"></i></a>
+              <a><i class="bi bi-snapchat social"></i></a>
+            </li>
+            <!--გვერდის კოფირაითი-->
+            <li class="py-2" style="font-size: 15px;" class="py-2">Copyright &copy MEIX</li>
+          </ul>
+        </div>
+        <!--UL/LI საკონტაქტო ინფორმაცია-->
+        <div class="col w-auto">
+          <ul class="p-0 m-0" style="list-style-type: none;">
+            <li class="py-2"><a href="contact.html" class="map"> <i class="bi bi-geo-alt-fill" style="font-size: 15px;"></i> Find us on map</a></li>
+            <li class="py-2">+995 555 35 30 30</li>
+            <li class="py-2" style="font-size: 15px;" class="text-lowercase">cloudbase@gmail.com</li>
+          </ul>
+        </div>
+        <!--UL ლოგო-->
+        <div class="col w-auto logo-div">
+          <div class="p-0 m-0">
+            <img src="images/logo-small.jpg" alt="" style="height: 120px; width: 120px;">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--კოდი-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
